@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    background-color: #f4f4f4;
+}
+
+.promo-container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(255, 2, 2, 0.2);
+    text-align: center;
+}
+
+.promo-message {
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(26, 177, 26);
+}
+
+.hidden {
+    display: none;
+}

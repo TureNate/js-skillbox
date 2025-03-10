@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Список товаров</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .products {
+            list-style-type: none;
+            padding: 0;
+        }
+        .products li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Список товаров</h1>
+<ul class="products">
+    <!-- Список товаров будет сгенерирован здесь -->
+</ul>
+
+<script>
+const products = ["Мышка", "Клавиатура", "Наушники"];
+const newProducts = ["Монитор", "Принтер", "Флешка"];
+const productsListEl = document.querySelector('.products')
+
+for (const product of newProducts) {
+    products.push(product)
+}
+
+for (const product of products) {
+    addPr = document.createElement('li')
+    addPr.textContent = product
+    productsListEl.append(addPr)
+}
+</script>
+
+</body>
+</html>

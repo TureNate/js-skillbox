@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; 
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333; 
+}
+
+.list {
+    list-style-type: none; 
+    padding: 0;
+    margin: 20px 0; 
+}
+
+.list li {
+    background-color: #fff; 
+    border: 1px solid #ddd; 
+    border-radius: 5px; 
+    padding: 10px; 
+    margin: 5px 0; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+button {
+    background-color: #007bff; /* Синий фон кнопок */
+    color: white; /* Белый текст */
+    border: none; /* Убираем рамку */
+    border-radius: 5px; /* Закругленные углы */
+    padding: 8px 12px; /* Внутренние отступы */
+    cursor: pointer; /* Указатель при наведении */
+    transition: background-color 0.3s; /* Плавный переход цвета фона */
+}
+
+button:hover {
+    background-color: #0056b3; /* Темнее при наведении */
+}
+
+.alert {
+    color: red; 
+    text-align: center; 
+}
